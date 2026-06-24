@@ -1,0 +1,42 @@
+# ==========================================================================
+# DADOS PESSOAIS DO USUÁRIO — NUNCA versionar / NUNCA subir para o GitHub
+# ==========================================================================
+# O arquivo de configuração com seus dados fica SÓ no seu computador.
+config.local.yaml
+config.local.yml
+config.yaml
+config.yml
+*.local.*
+
+# Pastas operacionais (seus casos, seus documentos)
+dados/
+casos/
+meus-reembolsos/
+
+# Assinaturas e documentos pessoais
+assinatura*.png
+assinatura*.jpg
+assinatura*.jpeg
+*_assinado*.pdf
+rg_*.pdf
+RG_*.pdf
+cnh_*.pdf
+
+# Tokens e credenciais de e-mail / serviços
+*token*.json
+credentials*.json
+.env
+.env.*
+
+# Estado operacional gerado pelo uso
+processed_emails.txt
+status.yaml
+status.yml
+
+# Sistema operacional / Python
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+venv/

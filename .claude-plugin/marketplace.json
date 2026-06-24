@@ -1,0 +1,17 @@
+{
+  "name": "viva-comunidade",
+  "owner": {
+    "name": "Comunidade de beneficiários Viva Mais Saúde"
+  },
+  "description": "Marketplace comunitário (não oficial) com o assistente de reembolso do plano Viva Mais Saúde.",
+  "plugins": [
+    {
+      "name": "reembolso-viva",
+      "source": "./plugins/reembolso-viva",
+      "description": "Assistente para adiantamentos e reembolsos do plano Viva Mais Saúde: preenche o formulário, monta o e-mail no padrão da operadora, controla prazos, organiza a prestação de contas e explica direitos (Acordo TST 2013). Não oficial.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "keywords": ["viva-mais", "reembolso", "adiantamento", "plano-de-saude", "saude"]
+    }
+  ]
+}

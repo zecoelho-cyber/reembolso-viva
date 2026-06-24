@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 Comunidade de beneficiários do plano Viva Mais Saúde
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+AVISO IMPORTANTE (leia antes de usar)
+================================================================================
+
+1. NÃO É FERRAMENTA OFICIAL. Este projeto NÃO é mantido, endossado nem
+   operado pela Viva Mais Saúde, pela operadora do plano, pela ATESQ, pela
+   Shell/Raizen/BASF, nem por qualquer das partes do Acordo Judicial. É um
+   utilitário comunitário, feito por um beneficiário para ajudar outros.
+
+2. NÃO É ACONSELHAMENTO JURÍDICO. Os textos sobre o Acordo TST de 2013, sobre
+   direitos e sobre conflitos com o Manual da operadora são leitura técnica
+   informativa, NÃO constituem parecer jurídico e NÃO substituem a consulta a
+   um advogado. Para qualquer decisão com efeito legal, procure um profissional.
+
+3. NÃO É ACONSELHAMENTO MÉDICO. O conteúdo não orienta tratamento de saúde.
+
+4. CONFIRME PRAZOS E REGRAS NA FONTE. As regras do plano podem mudar. Em caso
+   de dúvida sobre cobertura, prazo ou procedimento, confirme diretamente com a
+   Viva Mais Saúde pelos canais oficiais.
+
+5. SEUS DADOS SÃO SEUS. Esta ferramenta foi desenhada para que nenhum dado
+   pessoal seja embutido no código. Você informa seus dados na primeira vez e
+   eles ficam apenas no seu computador.

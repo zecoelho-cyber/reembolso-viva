@@ -1,0 +1,67 @@
+# =========================================================================
+# config.example.yaml — MODELO. Copie para config.local.yaml e preencha.
+# =========================================================================
+# O assistente lê os SEUS dados deste arquivo. Ele fica SÓ no seu computador
+# e nunca é versionado (o .gitignore já bloqueia config.local.yaml).
+#
+# Você não precisa preencher à mão: rode a configuração guiada dizendo
+# "configurar reembolso" e o assistente cria este arquivo conversando com você.
+#
+# Deixe em branco (entre aspas vazias "") o que não souber agora.
+# =========================================================================
+
+# Pasta onde os casos serão guardados (use um caminho do SEU computador)
+pasta_base: "~/Documentos/Reembolsos-Viva"
+
+# ---- Titular (você) -----------------------------------------------------
+titular:
+  nome: ""                 # nome completo, como no RG
+  cpf: ""                  # 000.000.000-00
+  endereco: ""
+  bairro: ""
+  cidade: ""
+  uf: ""
+  cep: ""
+  email: ""
+  telefone: ""
+  assinatura_png: ""       # opcional: caminho de uma imagem PNG da sua assinatura
+
+# ---- Dados bancários (onde o depósito cai) ------------------------------
+# A conta deve ser de titularidade do beneficiário (mesmo CPF).
+banco:
+  titular_conta: ""
+  cpf_titular_conta: ""
+  banco: ""
+  agencia: ""
+  conta: ""
+  chave_pix: ""
+
+# ---- Cópia (CC) dos e-mails enviados (opcional) -------------------------
+# Você mesmo ou um familiar de confiança. Advogado em cópia é caso a caso.
+cc_padrao: []              # ex.: ["familiar@exemplo.com"]
+
+# ---- Dependentes (se você faz pedidos para eles) ------------------------
+# Remova o exemplo e adicione um bloco por dependente, ou deixe a lista vazia [].
+dependentes:
+  - nome: ""
+    cpf: ""
+    email: ""
+    assinatura_png: ""
+    banco:
+      titular_conta: ""
+      cpf_titular_conta: ""
+      banco: ""
+      agencia: ""
+      conta: ""
+      chave_pix: ""
+
+# ---- Integrações (tudo opcional; só com arquivos locais já funciona) ----
+integracoes:
+  email: "manual"          # "manual" (você copia e envia) | "conectado" (e-mail ligado ao Claude)
+  repositorio: "arquivos"  # "arquivos" (local) | "notion" | "planilha"
+  lembretes: "arquivo"     # "arquivo" (lista local) | "app" (lembretes/calendário)
+
+# ---- Canal da operadora (valores oficiais — só mude se a Viva mudar) ----
+operadora:
+  email_destino: "central@atendimentovivamais.com.br"
+  telefone: "0800-777-0154"

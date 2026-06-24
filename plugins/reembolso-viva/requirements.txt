@@ -1,0 +1,5 @@
+# Dependências dos scripts Python deste plugin.
+# Instale com:  pip install -r requirements.txt
+pymupdf>=1.23      # preenchimento do formulário PDF (import fitz)
+pyyaml>=6.0        # leitura do config.local.yaml e dos casos
+holidays>=0.40     # cálculo de prazos em dias úteis (feriados BR/SP)

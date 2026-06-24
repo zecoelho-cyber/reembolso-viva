@@ -1,0 +1,20 @@
+{
+  "name": "reembolso-viva",
+  "version": "0.1.0",
+  "description": "Assistente para beneficiários do plano Viva Mais Saúde gerenciarem o ciclo de adiantamentos e reembolsos — preenche o formulário, monta o e-mail no padrão certo, controla prazos, organiza a prestação de contas e explica a base legal (Acordo TST 2013). Não oficial: feito por um beneficiário, para beneficiários.",
+  "author": {
+    "name": "Comunidade de beneficiários Viva Mais Saúde"
+  },
+  "homepage": "https://github.com/SEU-USUARIO/reembolso-viva",
+  "repository": "https://github.com/SEU-USUARIO/reembolso-viva",
+  "license": "MIT",
+  "keywords": [
+    "viva-mais",
+    "reembolso",
+    "adiantamento",
+    "plano-de-saude",
+    "acordo-tst",
+    "habilitados",
+    "saude"
+  ]
+}

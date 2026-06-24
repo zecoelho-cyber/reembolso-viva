@@ -1,0 +1,23 @@
+# Exemplo de um "caso" — os dados específicos de um pedido de adiantamento.
+# O assistente monta isto a partir do que você conta + dos documentos que envia.
+# Você não precisa editar à mão; é só uma referência do formato.
+
+data: "24/06/2026"          # data do pedido (DD/MM/AAAA)
+
+# tipo: consultas | terapias | medicamento | internacao | exames | materiais
+tipo: consultas
+
+# Itens do pedido (um por linha da tabela do formulário)
+itens:
+  - procedimento: "Consulta cardiologia"
+    profissional: "Dra Fulana de Tal"
+    crm: "SP-123456"            # CRM / CRP / CRO / CREFITO
+    qtd: 1
+    valor: 450.00
+  - procedimento: "Eletrocardiograma"
+    profissional: "Clínica Exemplo"
+    crm: "SP-654321"
+    qtd: 1
+    valor: 120.00
+
+total: 570.00                  # se omitido, o script soma os itens
