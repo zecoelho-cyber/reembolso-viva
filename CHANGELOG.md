@@ -3,6 +3,15 @@
 Todas as mudanças relevantes deste projeto são documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/).
 
+## [0.1.1] — 2026-06-24
+
+### Corrigido
+- Onboarding (`reembolso-viva-config`): blindado para **nunca** varrer arquivos, planilhas ou
+  projetos do usuário, nem pré-preencher dados a partir do ambiente. Agora coleta tudo
+  exclusivamente perguntando ao usuário, campo por campo (reforça a regra anti-inferência).
+- Skill operacional: esclarecido que a busca por `config.local.yaml` se limita a esse arquivo,
+  sem vasculhar o resto do computador.
+
 ## [0.1.0] — 2026-06-24
 
 Primeira versão pública. Despersonalizada a partir de um fluxo pessoal de um

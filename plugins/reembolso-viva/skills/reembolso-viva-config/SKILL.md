@@ -16,6 +16,20 @@ Conduz o usuário pela primeira configuração e grava os dados dele em `config.
 Objetivo: depois disso, o skill `reembolso-viva` funciona com os dados da pessoa, sem que
 ela precise repetir nada.
 
+## Limite rígido — NÃO bisbilhotar o computador do usuário
+
+Este skill só pode ler e escrever **o próprio `config.local.yaml`**. É **PROIBIDO**:
+
+- varrer pastas, projetos, planilhas, e-mails ou quaisquer outros arquivos do usuário para
+  "pré-preencher" o cadastro;
+- inferir nome, CPF, banco, dependentes ou qualquer dado a partir de arquivos existentes,
+  de outros skills, ou do contexto do ambiente;
+- rodar buscas no sistema (find, grep, scripts) atrás de dados do usuário.
+
+Todo dado vem **exclusivamente** das respostas do usuário, perguntadas uma a uma. Mesmo que
+você "já saiba" algo pelo ambiente, **ignore** e pergunte assim mesmo — use só o que o
+usuário responder. A regra é perguntar, nunca colher.
+
 ## Princípios
 
 - **Nunca invente nada.** Todo dado vem da boca do usuário. Se ele não souber um campo agora,

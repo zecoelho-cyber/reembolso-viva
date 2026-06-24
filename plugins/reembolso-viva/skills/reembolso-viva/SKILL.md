@@ -32,9 +32,10 @@ Antes de enviar qualquer e-mail, mostre o conteúdo ao usuário e **aguarde a co
 Os dados pessoais vivem em `config.local.yaml` (no computador do usuário, fora deste
 repositório). Antes de qualquer ação que precise dos dados do usuário:
 
-1. Procure por `config.local.yaml` na pasta-base do usuário.
+1. Procure **apenas** pelo arquivo `config.local.yaml` na pasta-base do usuário — não
+   vasculhe outros arquivos, planilhas ou projetos do usuário atrás de dados.
 2. Se **não existir**, acione o skill `reembolso-viva-config` (onboarding) para criá-lo —
-   não tente adivinhar os dados.
+   não tente adivinhar os dados nem colhê-los do ambiente.
 3. Se existir, leia dele: identidade do titular, dependentes, pasta-base, e quais
    integrações estão ligadas (e-mail, repositório, lembretes).
 
