@@ -16,9 +16,16 @@ Há dois jeitos. O primeiro é o mais fácil.
 
 ### Jeito 1 — no ChatGPT (o mais fácil, não precisa instalar nada)
 
-Abra o **link do assistente** (compartilhado no grupo) e comece a conversar. Funciona no
-computador e no celular; basta estar logado numa conta do ChatGPT (a gratuita serve). Não tem
-instalação — é só abrir e perguntar.
+Abra este link e comece a conversar:
+
+**[Reembolso Viva Mais (não oficial) — abrir no ChatGPT](https://chatgpt.com/g/g-6a3c3b6e0e648191971263f01e4a6d28-reembolso-viva-mais-nao-oficial)**
+
+`https://chatgpt.com/g/g-6a3c3b6e0e648191971263f01e4a6d28-reembolso-viva-mais-nao-oficial`
+
+[[QR_CODE]]
+
+Funciona no computador e no celular; basta estar logado numa conta do ChatGPT (a gratuita
+serve). Não tem instalação — é só abrir e perguntar.
 
 ### Jeito 2 — no Claude, no computador (versão avançada)
 
