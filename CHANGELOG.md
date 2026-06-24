@@ -3,6 +3,14 @@
 Todas as mudanças relevantes deste projeto são documentadas aqui.
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/pt-BR/).
 
+## [Fase 2 — ChatGPT] — 2026-06-24
+
+### Adicionado
+- Pasta `chatgpt/` com a versão para ChatGPT (Custom GPT): instruções do assistente
+  (`INSTRUCOES-DO-GPT.md`), base de conhecimento pronta para upload (`chatgpt/conhecimento/`) e
+  guia de montagem (`COMO-MONTAR-NO-CHATGPT.md`). Mesma base de conhecimento da versão Claude;
+  é um consultor — sem armazenamento de dados nem acompanhamento de casos.
+
 ## [0.1.1] — 2026-06-24
 
 ### Corrigido

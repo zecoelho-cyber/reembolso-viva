@@ -95,6 +95,15 @@ homologado pelo TST em 2013 (processo TST-ARR-22200-28.2007.5.15.0126), e o mód
 `plugins/reembolso-viva/skills/reembolso-viva/references/base-legal.md` resume os direitos e
 os 12 conflitos entre o Manual da operadora e o Acordo.
 
+## Também no ChatGPT (Fase 2)
+
+Além do plugin do Claude, há uma versão em **ChatGPT (Custom GPT)** na pasta
+[`chatgpt/`](chatgpt/) — um assistente que qualquer pessoa usa **de graça pelo link, sem
+instalar**. É um consultor: tira dúvidas, redige o e-mail no padrão, ajuda no formulário e
+explica direitos. Não guarda dados entre conversas nem acompanha casos sozinho — isso é só na
+versão do Claude. Para montar, veja
+[`chatgpt/COMO-MONTAR-NO-CHATGPT.md`](chatgpt/COMO-MONTAR-NO-CHATGPT.md).
+
 ## Contribuindo
 
 Sugestões e correções são bem-vindas (issues / pull requests). Ao contribuir, **nunca inclua
